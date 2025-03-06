@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlazorAppBootstrapGrid.Client\BlazorAppBootstrapGrid.Client.csproj" />
-    <PackageReference Include="Blazor.Bootstrap" Version="3.2.0" />
+    <PackageReference Include="Blazor.Bootstrap" Version="3.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.11" />
   </ItemGroup>
 
